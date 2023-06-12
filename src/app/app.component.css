@@ -1,0 +1,75 @@
+
+body {
+  background-color: #d6c8ce; /* Color de fondo de la página */
+}
+
+.profile-img {
+  width: 175px;
+  height: 164px;
+  border-radius: 40%;
+}
+
+.bio-card {
+  background-color: #eee7e7; /* Color de fondo del card */
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-card .card-header {
+  background-color: #f5939b; /* Color de fondo del encabezado del card */
+  color: #5c0546; /* Color del texto del encabezado del card */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.bio-card .card-body {
+  color: #212529; /* Color del texto del cuerpo del card */
+}
+@media screen and (max-width:900px) {
+    header {
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+    }
+    .imagen-about-us {
+        width: 90%;
+    }
+    /* Galeria */
+    .imagen-port {
+        width: 44%;
+    }
+    /* Clientes */
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards .card {
+        width: 90%;
+    }
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
+    /* servicios */
+    .servicio-cont {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicio-ind {
+        width: 100%;
+        text-align: center;
+    }
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
+        margin-bottom: 60px;
+    }
+    .servicio-ind img {
+        width: 90%;
+    }
+}
